@@ -7,10 +7,7 @@ import {
 } from "@solana/wallet-adapter-react";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import { PhantomWalletAdapter } from "@solana/wallet-adapter-wallets";
-
-// const endpoint = "https://api.devnet.solana.com";
-const endpoint = "https://api.mainnet-beta.solana.com";
-// const endpoint = "https://solana-mainnet.g.alchemy.com/v2/_tsdWAIlxFMDvFsArMnJa"
+import { ENDPOINT } from "@/lib/solana-utils";
 
 const wallets = [new PhantomWalletAdapter()];
 
@@ -20,7 +17,7 @@ interface Props {
 
 export const WalletProvider = ({ children }: Props) => {
   return (
-    <ConnectionProvider endpoint={endpoint}>
+    <ConnectionProvider endpoint={ENDPOINT}>
       <ReactWalletProvider wallets={wallets} autoConnect>
         <WalletModalProvider>{children}</WalletModalProvider>
       </ReactWalletProvider>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background hexagon with gradient and details -->
+  <g>
+    <!-- Base hexagon -->
+    <path d="M20 4L34.641 12V28L20 36L5.35898 28V12L20 4Z" fill="url(#hexGradient)" filter="url(#glow)"/>
+    
+    <!-- Outer edge highlights -->
+    <path d="M20 4L34.641 12V28L20 36L5.35898 28V12L20 4Z" 
+          fill="none" 
+          stroke="white" 
+          stroke-width="0.2" 
+          opacity="0.3"/>
+          
+    <!-- Additional outer pattern -->
+    <path d="M20 6L32.641 12.8V27.2L20 34L7.35898 27.2V12.8L20 6Z" 
+          fill="none" 
+          stroke="white" 
+          stroke-width="0.15" 
+          opacity="0.2"/>
+    
+    <!-- Corner dots with rings -->
+    <g>
+      <circle cx="20" cy="4" r="0.7" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      <circle cx="34.641" cy="12" r="0.7" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      <circle cx="34.641" cy="28" r="0.7" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      <circle cx="20" cy="36" r="0.7" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      <circle cx="5.35898" cy="28" r="0.7" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      <circle cx="5.35898" cy="12" r="0.7" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      
+      <circle cx="20" cy="4" r="0.4" fill="white" opacity="0.6"/>
+      <circle cx="34.641" cy="12" r="0.4" fill="white" opacity="0.6"/>
+      <circle cx="34.641" cy="28" r="0.4" fill="white" opacity="0.6"/>
+      <circle cx="20" cy="36" r="0.4" fill="white" opacity="0.6"/>
+      <circle cx="5.35898" cy="28" r="0.4" fill="white" opacity="0.6"/>
+      <circle cx="5.35898" cy="12" r="0.4" fill="white" opacity="0.6"/>
+    </g>
+    
+    <!-- Decorative corner lines with double strokes -->
+    <g>
+      <path d="M20 4L20 7M34.641 12L32.641 13M34.641 28L32.641 27M20 36L20 33M5.35898 28L7.35898 27M5.35898 12L7.35898 13" 
+            stroke="white" 
+            stroke-width="0.4" 
+            opacity="0.2"/>
+      <path d="M20 4L20 7M34.641 12L32.641 13M34.641 28L32.641 27M20 36L20 33M5.35898 28L7.35898 27M5.35898 12L7.35898 13" 
+            stroke="white" 
+            stroke-width="0.2" 
+            opacity="0.4">
+        <animate attributeName="opacity" values="0.4;0.2;0.4" dur="3s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    
+    <!-- Edge accents -->
+    <g>
+      <path d="M27.3205 8L27.3205 32M12.6795 8L12.6795 32" 
+            stroke="white" 
+            stroke-width="0.15" 
+            opacity="0.2" 
+            stroke-dasharray="1 2"/>
+      <path d="M8 20L32 20" 
+            stroke="white" 
+            stroke-width="0.15" 
+            opacity="0.2" 
+            stroke-dasharray="1 2"/>
+    </g>
+  </g>
+  
+  <!-- Inner hexagon with enhanced details -->
+  <g>
+    <!-- Base inner hexagon -->
+    <path d="M20 10L28.2843 14.6667V24L20 28.6667L11.7157 24V14.6667L20 10Z" 
+          fill="url(#innerGradient)" 
+          opacity="0.6"/>
+    
+    <!-- Inner hexagon multiple outlines -->
+    <g>
+      <path d="M20 10L28.2843 14.6667V24L20 28.6667L11.7157 24V14.6667L20 10Z" 
+            fill="none" 
+            stroke="white" 
+            stroke-width="0.25" 
+            opacity="0.3"/>
+      <path d="M20 11L27.2843 15.1667V23.5L20 27.6667L12.7157 23.5V15.1667L20 11Z" 
+            fill="none" 
+            stroke="white" 
+            stroke-width="0.15" 
+            opacity="0.2"/>
+    </g>
+    
+    <!-- Inner hexagon dynamic connection lines -->
+    <g>
+      <path d="M20 10L20 28.6667M11.7157 14.6667L28.2843 24M28.2843 14.6667L11.7157 24" 
+            stroke="white" 
+            stroke-width="0.2" 
+            opacity="0.2">
+        <animate attributeName="opacity" values="0.2;0.1;0.2" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M20 10L28.2843 24M20 10L11.7157 24M11.7157 14.6667L28.2843 14.6667" 
+            stroke="white" 
+            stroke-width="0.15" 
+            opacity="0.15" 
+            stroke-dasharray="0.5 1"/>
+    </g>
+    
+    <!-- Corner accent dots with rings -->
+    <g>
+      <circle cx="20" cy="10" r="0.6" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      <circle cx="28.2843" cy="14.6667" r="0.6" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      <circle cx="28.2843" cy="24" r="0.6" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      <circle cx="20" cy="28.6667" r="0.6" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      <circle cx="11.7157" cy="24" r="0.6" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      <circle cx="11.7157" cy="14.6667" r="0.6" fill="none" stroke="white" stroke-width="0.15" opacity="0.3"/>
+      
+      <circle cx="20" cy="10" r="0.3" fill="white" opacity="0.5"/>
+      <circle cx="28.2843" cy="14.6667" r="0.3" fill="white" opacity="0.5"/>
+      <circle cx="28.2843" cy="24" r="0.3" fill="white" opacity="0.5"/>
+      <circle cx="20" cy="28.6667" r="0.3" fill="white" opacity="0.5"/>
+      <circle cx="11.7157" cy="24" r="0.3" fill="white" opacity="0.5"/>
+      <circle cx="11.7157" cy="14.6667" r="0.3" fill="white" opacity="0.5"/>
+    </g>
+    
+    <!-- Mini accent dots at intersections -->
+    <g>
+      <circle cx="20" cy="19.3334" r="0.2" fill="white" opacity="0.4"/>
+      <circle cx="24.2843" cy="19.3334" r="0.2" fill="white" opacity="0.4"/>
+      <circle cx="15.7157" cy="19.3334" r="0.2" fill="white" opacity="0.4"/>
+    </g>
+  </g>
+  
+  <!-- Center coin/token design with rings -->
+  <circle cx="20" cy="20" r="6" fill="url(#centerGradient)" filter="url(#softGlow)"/>
+  <circle cx="20" cy="20" r="5" fill="none" stroke="white" stroke-width="0.2" opacity="0.4"/>
+  <circle cx="20" cy="20" r="4" fill="none" stroke="white" stroke-width="0.2" opacity="0.3"/>
+  
+  <!-- Decorative corner accents -->
+  <path d="M14 12L16 13M26 12L24 13M26 28L24 27M14 28L16 27" 
+        stroke="white" stroke-width="0.3" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Dynamic lines -->
+  <g>
+    <path d="M20 14L24 16V20M20 26L16 24V20" 
+          stroke="url(#innerGradient)" stroke-width="0.5" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="3s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Additional connection lines -->
+    <path d="M20 14L20 26M16 20L24 20" 
+          stroke="url(#innerGradient)" stroke-width="0.3" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Enhanced shine effects -->
+  <path d="M19 16L21 17" stroke="white" stroke-width="0.5" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.3;0.9" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <path d="M18 19L22 21" stroke="white" stroke-width="0.3" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Small dots at intersections -->
+  <circle cx="20" cy="14" r="0.3" fill="white" opacity="0.6"/>
+  <circle cx="20" cy="26" r="0.3" fill="white" opacity="0.6"/>
+  <circle cx="16" cy="20" r="0.3" fill="white" opacity="0.6"/>
+  <circle cx="24" cy="20" r="0.3" fill="white" opacity="0.6"/>
+  
+  <!-- Filters -->
+  <defs>
+    <!-- Main glow effect -->
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    
+    <!-- Soft glow for center -->
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    
+    <!-- Main hexagon gradient -->
+    <linearGradient id="hexGradient" x1="5" y1="4" x2="35" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="0.5" stop-color="#D97706"/>
+      <stop offset="1" stop-color="#B45309"/>
+    </linearGradient>
+    
+    <!-- Inner hexagon gradient -->
+    <linearGradient id="innerGradient" x1="11.7157" y1="10" x2="28.2843" y2="28.6667">
+      <stop offset="0" stop-color="#FCD34D"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    
+    <!-- Center circle gradient -->
+    <linearGradient id="centerGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9333EA"/>
+      <stop offset="0.5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+</svg>
